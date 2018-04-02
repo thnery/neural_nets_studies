@@ -36,7 +36,7 @@ def main():
   rows = [1, 5, 10, 20, 50, 100, 500]
 
   for i in rows:
-    score = classify_with_mlpregressor("assets/bitcoin_full_history/bitcoin_" + str(i) + ".csv")
+    score = classify_with_mlpregressor("assets/bitcoin_past_300_days/bitcoin_" + str(i) + ".csv")
     print(str(i) + ": " + str(score) + "%")
 
 
