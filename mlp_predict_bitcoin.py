@@ -1,6 +1,10 @@
 import numpy as np
 import pandas as pd
 
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
 
@@ -12,7 +16,7 @@ def normalize(array):
   result = (array - array.min()) / (array.max() - array.min())
   return result
 
-def classify_with_mlpregressor(file_path):
+def classify_with_mlpregressor(hidden_layer_sizes, file_path):
   data = read_data_from_csv(file_path)
   X, y = data.iloc[:, 1:], data.iloc[:, 0:1]
   X = normalize(X)
@@ -24,20 +28,45 @@ def classify_with_mlpregressor(file_path):
     solver='sgd',
     learning_rate='adaptive',
     activation='relu',
-    random_state=0)
+    momentum=0.9,
+    random_state=1,
+    hidden_layer_sizes=(hidden_layer_sizes,))
   clf.fit(X_train, y_train)
   y_pred = clf.predict(X_test)
   score = clf.score(X_test, y_test) * 100
 
   return round(score, 3)
 
+def plot_graph(scores, days_windows):
+  plt.plot(days_windows, scores)
+  plt.title("Bitcoins Full Length")
+  plt.xlabel("Score")
+  plt.ylabel("Days Windows")
+  plt.show()
+
 
 def main():
-  rows = [1, 5, 10, 20, 50, 100, 500]
+  days_windows = [1, 5, 10, 20, 50, 100, 500]
+  n = 5
 
-  for i in rows:
-    score = classify_with_mlpregressor("assets/bitcoin_full_history/bitcoin_" + str(i) + ".csv")
-    print(str(i) + ": " + str(score) + "%")
+  results_file = open("assets/results_full.txt", "w")
+
+  while n <= 100:
+    scores = []
+    print("Number of neurons = " + str(n))
+    results_file.write("==========================================\n")
+    results_file.write("Number of neurons: " + str(n) + "\n")
+
+    for i in days_windows:
+      file_path = "assets/bitcoin_full_history/bitcoin_" + str(i) + ".csv"
+      score = classify_with_mlpregressor(n, file_path)
+      scores.append(score)
+      print(str(i) + ": " + str(score) + "%")
+      results_file.write("Days Windows: " + str(i) + " :: Score: " + str(score) + "%" + "\n")
+
+    plot_graph(scores, days_windows)
+
+    n += 5
 
 
 main()

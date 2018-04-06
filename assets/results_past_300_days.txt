@@ -1,0 +1,180 @@
+==========================================
+Number of neurons: 5
+Days Windows: 1 :: Score: 7.135%
+Days Windows: 5 :: Score: 4.387%
+Days Windows: 10 :: Score: 90.715%
+Days Windows: 20 :: Score: 56.564%
+Days Windows: 50 :: Score: 33.738%
+Days Windows: 100 :: Score: 75.529%
+Days Windows: 500 :: Score: -6.599%
+==========================================
+Number of neurons: 10
+Days Windows: 1 :: Score: 26.316%
+Days Windows: 5 :: Score: -44.656%
+Days Windows: 10 :: Score: 73.111%
+Days Windows: 20 :: Score: 19.512%
+Days Windows: 50 :: Score: 44.981%
+Days Windows: 100 :: Score: 58.117%
+Days Windows: 500 :: Score: -150.6%
+==========================================
+Number of neurons: 15
+Days Windows: 1 :: Score: 57.84%
+Days Windows: 5 :: Score: 62.138%
+Days Windows: 10 :: Score: 89.896%
+Days Windows: 20 :: Score: 72.938%
+Days Windows: 50 :: Score: 71.249%
+Days Windows: 100 :: Score: -86.601%
+Days Windows: 500 :: Score: -13.921%
+==========================================
+Number of neurons: 20
+Days Windows: 1 :: Score: 27.862%
+Days Windows: 5 :: Score: 68.797%
+Days Windows: 10 :: Score: 85.926%
+Days Windows: 20 :: Score: 63.086%
+Days Windows: 50 :: Score: 65.428%
+Days Windows: 100 :: Score: 76.565%
+Days Windows: 500 :: Score: 25.376%
+==========================================
+Number of neurons: 25
+Days Windows: 1 :: Score: 20.037%
+Days Windows: 5 :: Score: 37.777%
+Days Windows: 10 :: Score: 68.583%
+Days Windows: 20 :: Score: 83.431%
+Days Windows: 50 :: Score: 60.915%
+Days Windows: 100 :: Score: 72.978%
+Days Windows: 500 :: Score: 69.098%
+==========================================
+Number of neurons: 30
+Days Windows: 1 :: Score: 14.802%
+Days Windows: 5 :: Score: 51.913%
+Days Windows: 10 :: Score: 90.855%
+Days Windows: 20 :: Score: 70.187%
+Days Windows: 50 :: Score: 82.254%
+Days Windows: 100 :: Score: 73.993%
+Days Windows: 500 :: Score: -190.02%
+==========================================
+Number of neurons: 35
+Days Windows: 1 :: Score: 63.829%
+Days Windows: 5 :: Score: 29.417%
+Days Windows: 10 :: Score: 71.682%
+Days Windows: 20 :: Score: 79.997%
+Days Windows: 50 :: Score: 68.464%
+Days Windows: 100 :: Score: 31.813%
+Days Windows: 500 :: Score: -113.869%
+==========================================
+Number of neurons: 40
+Days Windows: 1 :: Score: 57.367%
+Days Windows: 5 :: Score: 56.142%
+Days Windows: 10 :: Score: 77.295%
+Days Windows: 20 :: Score: 85.226%
+Days Windows: 50 :: Score: 10.868%
+Days Windows: 100 :: Score: 65.795%
+Days Windows: 500 :: Score: 48.27%
+==========================================
+Number of neurons: 45
+Days Windows: 1 :: Score: 13.382%
+Days Windows: 5 :: Score: 67.378%
+Days Windows: 10 :: Score: 62.368%
+Days Windows: 20 :: Score: 73.731%
+Days Windows: 50 :: Score: 53.357%
+Days Windows: 100 :: Score: 80.343%
+Days Windows: 500 :: Score: -71.857%
+==========================================
+Number of neurons: 50
+Days Windows: 1 :: Score: 28.191%
+Days Windows: 5 :: Score: 69.461%
+Days Windows: 10 :: Score: 74.76%
+Days Windows: 20 :: Score: 92.403%
+Days Windows: 50 :: Score: 38.35%
+Days Windows: 100 :: Score: 3.935%
+Days Windows: 500 :: Score: -290.789%
+==========================================
+Number of neurons: 55
+Days Windows: 1 :: Score: 30.738%
+Days Windows: 5 :: Score: 92.716%
+Days Windows: 10 :: Score: 90.543%
+Days Windows: 20 :: Score: 79.755%
+Days Windows: 50 :: Score: 40.288%
+Days Windows: 100 :: Score: 70.569%
+Days Windows: 500 :: Score: 71.508%
+==========================================
+Number of neurons: 60
+Days Windows: 1 :: Score: 6.606%
+Days Windows: 5 :: Score: 85.963%
+Days Windows: 10 :: Score: 72.642%
+Days Windows: 20 :: Score: 78.313%
+Days Windows: 50 :: Score: 6.474%
+Days Windows: 100 :: Score: 48.681%
+Days Windows: 500 :: Score: 33.743%
+==========================================
+Number of neurons: 65
+Days Windows: 1 :: Score: 38.951%
+Days Windows: 5 :: Score: 69.965%
+Days Windows: 10 :: Score: 95.941%
+Days Windows: 20 :: Score: 82.837%
+Days Windows: 50 :: Score: 71.459%
+Days Windows: 100 :: Score: -166.364%
+Days Windows: 500 :: Score: -125.253%
+==========================================
+Number of neurons: 70
+Days Windows: 1 :: Score: 36.911%
+Days Windows: 5 :: Score: 70.909%
+Days Windows: 10 :: Score: 82.058%
+Days Windows: 20 :: Score: 74.827%
+Days Windows: 50 :: Score: 75.826%
+Days Windows: 100 :: Score: -12.201%
+Days Windows: 500 :: Score: 84.609%
+==========================================
+Number of neurons: 75
+Days Windows: 1 :: Score: 40.739%
+Days Windows: 5 :: Score: 75.141%
+Days Windows: 10 :: Score: 92.834%
+Days Windows: 20 :: Score: 89.851%
+Days Windows: 50 :: Score: 9.236%
+Days Windows: 100 :: Score: -64.202%
+Days Windows: 500 :: Score: -124.617%
+==========================================
+Number of neurons: 80
+Days Windows: 1 :: Score: 29.248%
+Days Windows: 5 :: Score: 71.8%
+Days Windows: 10 :: Score: 75.23%
+Days Windows: 20 :: Score: 86.897%
+Days Windows: 50 :: Score: 79.607%
+Days Windows: 100 :: Score: -58.988%
+Days Windows: 500 :: Score: -525.178%
+==========================================
+Number of neurons: 85
+Days Windows: 1 :: Score: 7.424%
+Days Windows: 5 :: Score: 81.126%
+Days Windows: 10 :: Score: 59.811%
+Days Windows: 20 :: Score: 74.728%
+Days Windows: 50 :: Score: -62.242%
+Days Windows: 100 :: Score: 50.061%
+Days Windows: 500 :: Score: 79.815%
+==========================================
+Number of neurons: 90
+Days Windows: 1 :: Score: -34.626%
+Days Windows: 5 :: Score: 85.339%
+Days Windows: 10 :: Score: 93.969%
+Days Windows: 20 :: Score: 74.036%
+Days Windows: 50 :: Score: 73.356%
+Days Windows: 100 :: Score: 78.463%
+Days Windows: 500 :: Score: 15.832%
+==========================================
+Number of neurons: 95
+Days Windows: 1 :: Score: 5.695%
+Days Windows: 5 :: Score: 64.488%
+Days Windows: 10 :: Score: 78.846%
+Days Windows: 20 :: Score: 74.603%
+Days Windows: 50 :: Score: 48.718%
+Days Windows: 100 :: Score: 7.326%
+Days Windows: 500 :: Score: -4.399%
+==========================================
+Number of neurons: 100
+Days Windows: 1 :: Score: 5.18%
+Days Windows: 5 :: Score: 93.32%
+Days Windows: 10 :: Score: 71.263%
+Days Windows: 20 :: Score: 63.947%
+Days Windows: 50 :: Score: 54.728%
+Days Windows: 100 :: Score: 4.858%
+Days Windows: 500 :: Score: 83.306%
